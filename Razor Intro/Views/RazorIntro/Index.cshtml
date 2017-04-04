@@ -1,0 +1,15 @@
+
+@{
+    ViewData["Title"] = "Index";
+    string name = "Craig";
+    int salary = 1000000;
+    int myTaxes = 30000;
+
+}
+
+<h2>Index</h2>
+<h2>@name</h2>
+<h3>Total earning last year : @salary</h3>
+<h3>I currently owe: @myTaxes for this year @DateTime.Now.Year</h3>
+<h3>Today's date is: @DateTime.Today</h3>
+
